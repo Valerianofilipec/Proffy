@@ -2,8 +2,8 @@
 /* eslint-disable class-methods-use-this */
 import { Response, Request } from 'express';
 
-import convertHourToMinutes from '../utils/convertHourToMinutes';
-import db from '../db/connection';
+import convertHourToMinutes from "../utils/convertHourToMinutes";
+import db from "../db/connection";
 
 interface ScheduleItem {
   week_day: number,
